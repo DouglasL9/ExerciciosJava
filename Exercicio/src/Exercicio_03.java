@@ -16,10 +16,10 @@ public class Exercicio_03 {
 		C = scan.nextInt();
 		System.out.print("Digite o 4° valor: ");
 		D = scan.nextInt();
+		scan.close();
 		
 		DiferencaProduto = (A*B - C*D);
 		
 		System.out.println("DIFERENÇA = "+ DiferencaProduto);
 	}
-
 }
