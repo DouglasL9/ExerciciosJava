@@ -13,10 +13,9 @@ public class Exercicio_01 {
 		
 		System.out.println("Digite o 2° número");
 		Numero2 = scan.nextInt();
+		scan.close();
 		
 		System.out.println("SOMA = "+ (Numero1 + Numero2));
 		
-		scan.close();
 	}
-
 }

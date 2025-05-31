@@ -13,12 +13,11 @@ public class Exercicio_02 {
 		
 		System.out.println("Digite o raio do circulo");
 		raio = scan.nextDouble();
+		scan.close();
 
 		area = pi * Math.pow(raio, 2);
 		
 		System.out.printf("A = %.4f",area);
 		
-		scan.close();
 	}
-
 }

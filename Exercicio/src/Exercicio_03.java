@@ -5,8 +5,7 @@ public class Exercicio_03 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		int A, B, C, D;
-		int DiferencaProduto;
+		int A, B, C, D, DiferencaProduto;
 		
 		System.out.print("Digite o 1° valor: ");
 		A = scan.nextInt();
